@@ -14,10 +14,10 @@ public class CommonActions {
     protected  void navigateToUrl(String pageUrl){
         driver.get(pageUrl);
     }
+
     protected void clickOnElement(WebElement element){
         element.click();
     }
-
 
     public void sleep(int inMilliSec){
         try {
